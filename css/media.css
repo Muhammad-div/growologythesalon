@@ -1,0 +1,52 @@
+@media (max-width: 756px) {
+  .main-logo {
+    opacity: 1 !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header {
+    background-color: rgb(228, 225, 217);
+  }
+
+  .header .row {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-logo img {
+    width: 248px;
+  }
+
+  .section_2 {
+    /* background-image: url(../assets/section-2-bg.jpeg); */
+    --scale: 1.00384;
+    height: 56vh;
+  }
+
+  .swiper-wrapper {
+    padding-bottom: 0;
+  }
+
+  .section_7 h2 {
+    font-size: 38px;
+  }
+
+  .section_7 {
+    min-height: 55vh;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    top: 105%;
+    width: 100vw;
+    transform: translateX(-30%);
+    padding: 20px;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    background-color: #000;
+  }
+}
