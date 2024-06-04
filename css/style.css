@@ -20,7 +20,7 @@ p {
   text-transform: uppercase;
   font-style: normal;
   text-decoration: none;
-  line-height: 1.3em;
+  /* line-height: 1.3em; */
   letter-spacing: 1.53px;
   fill: #ffffff;
   color: #ffffff;
