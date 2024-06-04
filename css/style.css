@@ -32,6 +32,10 @@ p {
   padding: 15px 20px 15px 20px;
 }
 
+.btn_dark:hover {
+  border: 1px solid #000;
+}
+
 /* Include the CSS here or in an external stylesheet */
 .header {
   transition: 0.3s;
